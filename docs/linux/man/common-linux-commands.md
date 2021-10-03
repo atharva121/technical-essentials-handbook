@@ -7,7 +7,9 @@ This information is not complete, exhaustive. It is meant to be only for quick r
 ## What is `-type f, d, l`
 
 f: files
-d: directories,
+
+d: directories
+
 l: symbolic links
 
 Example:
