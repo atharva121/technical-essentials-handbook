@@ -2,6 +2,18 @@
 
 This page describes collection of small tools and tips related to Linux command line and similar technologies.
 
+## Random man page
+
+```
+man `apropos -w \* | shuf | head -1 | awk -F" " '{print $1}'`
+```
+
+or simpler, shorter details
+
+```
+apropos -w \* | shuf | head -1
+```
+
 ## Count the number of words in the files inside a directory
 
 Find files ending with extension `.md` in or below the directory `docs/` and count the words.
@@ -16,7 +28,7 @@ Using logical OR (-o)
 find docs -type f -name "*.md" -o -name "*.txt" | xargs wc -w
 ```
 
-Refer to [common man commands page](../docs/linux/man/common-linux-commands.md) to understand the details about the command or checkout the [Linux find man page ↗](https://man7.org/linux/man-pages/man1/find.1.html)
+Refer to [Common Linux Commands man page](../docs/linux/man/common-linux-commands.md) to understand the details about the command or checkout the [Linux find man page](https://man7.org/linux/man-pages/man1/find.1.html)
 
 ## `find -print0 | xargs -0` approach
 
