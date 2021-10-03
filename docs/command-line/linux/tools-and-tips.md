@@ -26,4 +26,4 @@ Find files named **core** in or below the directory **/tmp** and delete them. No
 find /tmp -name core -type f -print0 | xargs -0 /bin/rm -f
 ```
 
-The **-name** test comes before the **-type** test in order to avoid having to call [stat(2)](/stat(2)) on every file.
+The **-name** test comes before the **-type** test in order to avoid having to call [stat(2)](https://man.cx/stat(2)) on every file.
