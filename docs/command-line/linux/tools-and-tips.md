@@ -14,6 +14,8 @@ or simpler, shorter details
 apropos -w \* | shuf | head -1
 ```
 
+[Random man page a day : linux](https://www.reddit.com/r/linux/comments/18ky5t/random_man_page_a_day/)
+
 ## Count the number of words in the files inside a directory
 
 Find files ending with extension `.md` in or below the directory `docs/` and count the words.
