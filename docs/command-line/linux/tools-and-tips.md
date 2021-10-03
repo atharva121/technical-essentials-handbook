@@ -1,6 +1,8 @@
-# Tools and Tips - Linux - Command Line
+# Tools and Tips
 
 This page describes collection of small tools and tips related to Linux command line and similar technologies.
+
+Look for [Commanline Linux Resources page](../docs/command-line/linux/resources.md) for more collections. 
 
 ## Random man page
 
