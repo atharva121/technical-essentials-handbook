@@ -1,5 +1,22 @@
 # Tools and Tips
 
+## How to figure out distro name and its details in Termux?
+
+Inside termux, do `uname -a`
+
+When installed other distro like Arch Linux, enter Arch Linux by executing `startarch` and then:
+
+```
+cat /etc/*-release
+```
+
+or
+
+```
+uname -a
+```
+
+
 ## What is `$PREFIX` in termux?
 
 $PREFIX is a Termux rootfs, expands to `/data/data/com.termux/files/usr`
