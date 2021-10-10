@@ -1,3 +1,8 @@
+---
+sidebar_label: Resources
+description: Resources that could be useful for Android App Development but are not strictly related or necessary for it.
+---
+
 # Tangential Android - Resources
 
 ## General
